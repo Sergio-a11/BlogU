@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <title>Nosotros</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="img/logo.png"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="container-fluid">     
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-pills nav-justified">
+                    <a class="navbar-brand" href="./index.jsp">
+                        <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                        BLOG-UDP
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+                            <li class="nav-item active col-6 col-md-auto">
+                                <a class="nav-link" href="./index.jsp">Home</a>
+                            </li>
+                            <li class="nav-item col-6 col-md-auto">
+                                <a class="nav-link" href="./about.html">Nosotros</a>
+                            </li>
+                        </ul> 
+                        <hr class="d-md-none text-white-50">
+                        <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                            <li class="nav-item col-6 col-md-auto">
+                                <a class="nav-link d-lg-inline-block my-2 my-md-0 ms-md-3">
+                                    <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#registro" type="button">Registrarse</button>
+                                </a>
+                            </li>
+                            <li class="nav-item col-6 col-md-auto">
+                                <a class="nav-link d-lg-inline-block my-2 my-md-0 ms-md-3">
+                                    <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#incio" type="button" value="Iniciar Sesión">Iniciar Sesión</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="container-md">
+                <h1 class="mt-3">¿Por qué realizamos este proyecto?</h1>
+                <p style="text-align: justify;">Dadas las inconformidades del país tras las decisiones del presidente y su gabinete frente a la situación del país, la gran mayoría de los ciudadanos presenta su peticiones por medio de marchas y plantones que escalan un paro a nivel nacional. Dentro del paro nacional las instituciones educativas de nivel superior de carácter público, deciden apoyar la posición de manifestarse frente a la coyuntura y entran en un cese indefinido de actividades.<br>
+                    Como proyecto curricular se toma la decisión de establecer una metodología de currículo alterno donde se desarrollan actividades relacionadas al paro y con énfasis en la temática de cada materia, particularmente en la materia de "Programación  Avanzada" se decide crear un blog para compartir información relacionada con el paro nacional.</p>
+                <h1>¿Como se desarrollo el proyecto?</h1>
+                <p style="text-align: justify;">Una vez planteada la idea inicial, con la ayuda del docente para aterrizar la idea se procedió a investigar sobre las herramientas necesarias para desarrollar el Blog. Dado que el lenguaje de programación en el que estábamos desarrollando en la matrería era <a href="https://www.oracle.com/java/technologies/" target="_blank"><span class="badge rounded-pill bg-danger">JAVA</span></a>, procedimos a buscar un host que  admitiera código en dicho lenguaje,  consultando en la web encontramos la pagina de <a href="https://www.heroku.com" target="_blank"><span class="badge rounded-pill bg-danger">HEROKU</span></a> que permitía la integración con Java y bases de datos en <a href="https://www.postgresql.org" target="_blank"><span class="badge rounded-pill bg-danger">POSGRESQL</span></a>, tecnología vista durante la carrera.
+                    <br>Cuando ya teníamos la lista de Herramientas necesarias empezamos con el desarrollo del proyecto y por recomendación de compañeros de otros semestres usamos <a href="https://git-scm.com" target="_blank"><span class="badge rounded-pill bg-danger">GIT</span></a> desde el inicio del proyecto para llevar un manejo efectivo y fácil de las versiones, además de que Heroku permite cargar el código del proyecto desde un repositorio en <a href="https://github.com" target="_blank"><span class="badge rounded-pill bg-danger">GITHUB</span></a>.
+                    <br>El proyecto inicio su desarrollo el 18 de mayo de 2021, según el 'commit' inicial en GitHub , durante el desenlace del proyecto  se presentaron necesidades para cumplir ideas o funcionalidades que como estudiantes a inicio de semestre no saiamos como resolver por lo cual tras investigar en internet y no comprender, el profesor de la materia en pro de cumplir con el currículo alterno nos ofreció tutorías durante las horas de clase para resolver dudas y darnos ayudas técnica con los temas desconocidos.</p>
+                <div class="card-group row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">    
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/Perfil-Checho.jpg" class="img-fluid rounded-start" alt="Foto de perfil de Sergio Cruz">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sergio Andrés Cruz Guerrero</h5>
+                                        <p class="card-text" style="text-align: justify;">Estudiante de la Universidad Distrital, en el proyecto curricular de Sistematizacion de datos, co-autor de un articulo enfocado en asistentes virtuales y su influencia en empresas pequeñas <a href="https://revistas.udistrital.edu.co/index.php/vinculos/article/view/16874"><span class="badge rounded-pill bg-danger">Articulo aqui</span></a> posee un certificado tecnico articulado de diseño e integración de multimedia del SENA y un certificado de diseño de paginas web.</p>
+                                        <p class="card-text"><small class="text-muted">cz.andrs@gmail.com - <a href="https://github.com/Sergio-a11"><span class="badge rounded-pill bg-dark">GITHUB</span></a></small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">      
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 mt-5">
+                                    <img src="img/Perfil-Daniel.jpg" class="img-fluid rounded-start" alt="Foto de perfil de Daniel Torres">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Daniel Mauricio Torres Martinez</h5>
+                                        <p class="card-text" style="text-align: justify;">Estudiante de la Universidad Distrital, en el proyecto curricular de Sistematizacion de datos, co-autor de un articulo enfocado en asistentes virtuales y su influencia en empresas pequeñas <a href="https://revistas.udistrital.edu.co/index.php/vinculos/article/view/16874"><span class="badge rounded-pill bg-danger">Articulo aqui</span></a> y es pertenciente a un semillero de investigacion enfocado en videojuegos educativos e investigativos.</p>
+                                        <p class="card-text"><small class="text-muted">dmtm1404@gmail.com - <a href="https://github.com/DanndxFull"><span class="badge rounded-pill bg-dark">GITHUB</span></a></small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="alert alert-dark" role="alert">
+                Para contactar a los desarrolladores por favor inicie sesión
+            </div>
+        </div>
+        <div class="modal fade" id="registro" tabindex="-1" aria-labelledby="registro" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Registrarse</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="RegistroCTO" method="POST">
+                                <div class="mb-3">
+                                    <label for="usuario" class="col-form-label">Usuario</label>
+                                    <input class="form-control" type="text" name="usuario" placeholder="nickname" required maxlength="40" autofocus autocomplete="off"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email</label>
+                                    <input class="form-control" type="email" name="email" placeholder="user@email.com" required maxlength="50"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contrasena" class="col-form-label">Contraseña</label>
+                                    <input class="form-control" name="contrasena" type="password" required maxlength="20" aria-describedby="contrasena" />
+                                    <div class="col-auto">
+                                        <span id="contrasena" class="form-text">
+                                            Debe tener de 3 a 20 caracteres.
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="submit" class="btn btn-danger" value="Registrarse">Registrarse</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="incio" tabindex="-1" aria-labelledby="inicio" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Inicio de Sesión</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="InicioCTO?opc=iniciar" method="POST">
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email</label>
+                                    <input class="form-control" type="email" name="email" placeholder="user@email.com" required maxlength="50" autofocus/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contrasena" class="col-form-label">Contraseña</label>
+                                    <input class="form-control" type="password" name="contrasena" id="contrasena" required maxlength="20"/>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="submit" class="btn btn-danger" value="Iniciar Sesión">Iniciar Sesión</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    </body>
+</html>

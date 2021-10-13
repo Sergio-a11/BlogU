@@ -1,0 +1,39 @@
+/* 
+    Created on : 26/07/2021, 04:50:53 PM
+    Author     : Sergio Cruz
+*/
+.audio{
+    padding-left: 250px;
+}
+
+@media (max-width: 600px){
+    .banner-perfil{
+        font-size: 0.8rem !important;
+        height: auto !important;
+        max-width: 300px !important;;
+    }
+    
+    .video-yt > iframe{
+        max-width: 300px !important;
+        max-height: 200px !important;
+    }
+    
+    .palabras > div {
+        margin-bottom: 10px;
+    }
+    
+    .audio{        
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 600px){
+    .video-yt > iframe{
+        max-width: 400px !important;
+        max-height: 230px !important;
+    }
+    
+    .audio{
+        padding-left: 190px;
+    }
+}
